@@ -1,0 +1,5 @@
+language: java                                                              
+script: 
+        - cd BowlingReservation-Backend
+        - gradle build
+

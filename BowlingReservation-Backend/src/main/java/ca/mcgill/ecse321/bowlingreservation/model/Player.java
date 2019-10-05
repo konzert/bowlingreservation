@@ -33,5 +33,13 @@ this.playerID = value;
 @Id
 public int getPlayerID() {
 return this.playerID;
+    }
+private String name;
+
+public void setName(String value) {
+this.name = value;
+    }
+public String getName() {
+return this.name;
        }
    }
